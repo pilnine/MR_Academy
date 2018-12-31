@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 287965163}
   - component: {fileID: 287965161}
   - component: {fileID: 287965160}
+  - component: {fileID: 287965162}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -240,6 +241,17 @@ MonoBehaviour:
   azureResponseText: {fileID: 87447008}
   dictationText: {fileID: 699313689}
   translationResultText: {fileID: 1199733946}
+--- !u!114 &287965162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 287965159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88cb101c7d7268f4c848ea8db99bef8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &287965163
 AudioSource:
   m_ObjectHideFlags: 0

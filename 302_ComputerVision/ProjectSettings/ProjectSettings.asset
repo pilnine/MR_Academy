@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 966703b7648903b409dfd5313f3127ec
+  productGUID: 7cdea045b87bec04e85e15be154ffacc
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: 301_MR_Translation
+  productName: 302_ComputerVision
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -563,14 +563,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 301MRTranslation
+  metroPackageName: 302ComputerVision
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: Assets\WSATestCertificate.pfx
+  metroCertificatePath: 
   metroCertificatePassword: 
-  metroCertificateSubject: DefaultCompany
-  metroCertificateIssuer: DefaultCompany
-  metroCertificateNotAfter: 80751b4756c0d501
-  metroApplicationDescription: 301_MR_Translation
+  metroCertificateSubject: 
+  metroCertificateIssuer: 
+  metroCertificateNotAfter: 0000000000000000
+  metroApplicationDescription: 302_ComputerVision
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -610,7 +610,7 @@ PlayerSettings:
       UserAccountInformation: False
       VideosLibrary: False
       VoipCall: False
-      WebCam: False
+      WebCam: True
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
@@ -666,8 +666,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 9ed04b1a-b9c9-4b9f-bae6-fd8b08c4e87b
-  projectName: 301_MR_Translation (1)
+  cloudProjectId: ad036cbe-f8b1-4562-8aa4-d077c1fe1a6a
+  projectName: 302_ComputerVision
   organizationId: kim-hyungmin
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

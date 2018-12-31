@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -199,6 +199,8 @@ GameObject:
   - component: {fileID: 287965165}
   - component: {fileID: 287965164}
   - component: {fileID: 287965163}
+  - component: {fileID: 287965161}
+  - component: {fileID: 287965160}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -206,6 +208,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &287965160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 287965159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65a6ed7285476b5418229d461f5520f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  from: 0
+  to: 4
+--- !u!114 &287965161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 287965159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de73d16726d51fe41a8a299641da57f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  azureResponseCode: 
+  translationResult: 
+  dictationResult: 
+  micStatus: 
+  microphoneStatusText: {fileID: 295498351}
+  azureResponseText: {fileID: 87447008}
+  dictationText: {fileID: 699313689}
+  translationResultText: {fileID: 1199733946}
 --- !u!82 &287965163
 AudioSource:
   m_ObjectHideFlags: 0

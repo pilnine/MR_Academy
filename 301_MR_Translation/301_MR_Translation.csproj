@@ -228,6 +228,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MicrophoneManager.cs" />
     <Compile Include="Assets\Scripts\Results.cs" />
+    <Compile Include="Assets\Scripts\Translator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -68,4 +68,13 @@ public class MicrophoneManager : MonoBehaviour {
         dictationRecognizer.Dispose();
     }
 
+    private void DictationRecognizer_DictationResult(string text, ConfidenceLevel confidence)
+    {
+        // Update UI with dictation captured
+        Results.instance.SetDictationResult(text);
+
+        // Start the coroutine that process the dictation through Azure 
+        StartCoroutine(Translator.instance.TranslateWithUnityNetworking(text));
+    }
+
 }

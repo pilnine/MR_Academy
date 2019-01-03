@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 7cdea045b87bec04e85e15be154ffacc
+  productGUID: f511e48c978eb1f46b19dc2be757ee0d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: 302_ComputerVision
+  productName: 302b_CustomVision
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -563,14 +563,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 302ComputerVision
+  metroPackageName: 302bCustomVision
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
-  metroCertificateNotAfter: 80b23f6261c0d501
-  metroApplicationDescription: 302_ComputerVision
+  metroCertificateNotAfter: 00230c566ac0d501
+  metroApplicationDescription: 302b_CustomVision
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -597,7 +597,7 @@ PlayerSettings:
       InternetClient: True
       InternetClientServer: False
       Location: False
-      Microphone: False
+      Microphone: True
       MusicLibrary: False
       Objects3D: False
       PhoneCall: False
@@ -662,12 +662,11 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    UNet: 1
+  cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
-  cloudProjectId: ad036cbe-f8b1-4562-8aa4-d077c1fe1a6a
-  projectName: 302_ComputerVision
+  apiCompatibilityLevel: 3
+  cloudProjectId: a839bf78-3960-4536-953b-6665badf3a41
+  projectName: 302b_CustomVision
   organizationId: kim-hyungmin
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

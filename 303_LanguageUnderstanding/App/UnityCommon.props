@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>303_LanguageUnderstanding</UnityWSASolutionName>
+        <UnityWSASolutionDir>D:\projects\MR_Academy\303_LanguageUnderstanding\App\</UnityWSASolutionDir>
+        <UnityProjectDir>D:\projects\MR_Academy\303_LanguageUnderstanding\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>

@@ -28,12 +28,12 @@ public class VideoController : MonoBehaviour {
     /// <summary>
     /// Insert here the first video endpoint
     /// </summary>
-    private string video1endpoint = "-- Insert video 1 Endpoint here --";
+    private string video1endpoint = "https://mracademystroage.blob.core.windows.net/asset-21c166d2-fd4b-4bd6-9778-d91cba4c635e/Ayutthaya - Easy Tripod Paint _ 360_VR Master Series _ Free Download.mp4?sv=2017-04-17&sr=c&si=8679f5d0-da0f-4c61-bebc-6665fe61dc8f&sig=HUbkW1N0nDYazUtN0JjK5%2BA2ccMRSKuvxhlasitYiQw%3D&st=2019-01-18T23%3A18%3A00Z&se=2119-01-18T23%3A18%3A00Z";
 
     /// <summary>
     /// Insert here the second video endpoint
     /// </summary>
-    private string video2endpoint = "-- Insert video 2 Endpoint here --";
+    private string video2endpoint = "http://mracademystroage.blob.core.windows.net/asset-af47d3be-7577-4f99-9d8f-2e17e089e49d/Ayutthaya - needs stabilization _1920x960_AACAudio_4440.mp4?sv=2017-04-17&sr=c&si=e024a1d1-b275-4433-9b5e-304ff13ced05&sig=tvJ4Jig2hfC7r11DGIJ17lTzFL0RfGxytlc%2B4Dc93zQ%3D&st=2019-01-18T23%3A28%3A42Z&se=2119-01-18T23%3A28%3A42Z";
 
     /// <summary> 
     /// Reference to the Inside-Out Sphere. 
@@ -130,6 +130,7 @@ public class VideoController : MonoBehaviour {
     }
 
     public void ChangeScene()
+
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name == "VideoScene1" ? "VideoScene2" : "VideoScene1");
     }
